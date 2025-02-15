@@ -131,8 +131,8 @@ header {
 }
 
 .kanye-west-section {
+    position: relative;
     display: flex;
-    flex-wrap: row nowrap;
     justify-content: space-between;
     background-color: #00B172;
 }
@@ -150,12 +150,17 @@ header {
 }
 
 .white-logo {
-    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
     height: 100px;
     width: 100px;
 }
 
 .image-app {
-    height: 500px;
-    width: 400px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 600px;
+    width: 500px;
 }
